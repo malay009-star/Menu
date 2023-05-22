@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+*,
+::after,
+::before {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Poppins, sans-serif;
+  color: #102A42;
+}
+
+@media (max-width: 800px) {
+  #mt_img {
+    margin-top: 2rem;
+  }
+}
+.para {
+  color: rgb(134, 134, 134);
+}
+
+#head {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+#head h1 {
+  position: relative;
+}
+#head h1::after {
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  left: 46%;
+  top: 120%;
+  bottom: 0%;
+  content: "";
+  background-color: #C59D5F;
+}
+#head button {
+  margin-top: 4rem;
+  color: white;
+  padding: 2px 18px;
+  border-radius: 5px;
+  color: #102A42;
+  border-top: 2px solid #C59D5F;
+  border-left: 2px solid #C59D5F;
+  border-right: 2px solid #102A42;
+  border-bottom: 2px solid #102A42;
+  font-size: 1.05rem;
+}
+#head button:hover {
+  transition: all 0.4s ease;
+  background-color: #C59D5F;
+}
+
+#All {
+  width: 90%;
+  margin: auto;
+}
+#All img {
+  border-radius: 10px;
+  border: 4px solid #C59D5F;
+}
+
+#breakfast .item_heading {
+  border-bottom: 1px dotted black;
+}
+
+.item_heading {
+  border-bottom: 1px dotted black;
+}
+.item_heading p {
+  color: #C59D5F;
+}
+
+@media (max-width: 500px) {
+  #head h1::after {
+    left: 38%;
+  }
+}
+@media (max-width: 380px) {
+  #head h1::after {
+    left: 30%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
